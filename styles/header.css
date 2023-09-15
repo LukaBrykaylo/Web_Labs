@@ -1,0 +1,156 @@
+@import url('general.css');
+@import url('footer.css');
+@import url('about_us.css');
+@import url('clients.css');
+@import url('how_to_apply.css');
+
+.header {
+   padding-top: 25px;
+   height: 1184px;
+   background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\mainBackground.png') no-repeat;
+   background-size: 1285px 940px;
+   background-position: top center;
+}
+
+.header__upper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1600px;
+   flex-wrap: wrap;
+   padding-bottom: 80px;
+}
+
+.logo {
+   color: #FFF;
+   font-family: 'DM Serif Display', serif;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 100%;
+   background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\logo.png') no-repeat;
+   background-size: 47px 50px;
+   background-position: left;
+   padding: 25px;
+   padding-left: 70px;
+   padding-right: 50px;
+   margin-right: 100px;
+}
+
+.header__navigation {
+   margin-right: 180px;
+}
+
+.header__button {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   text-decoration: none;
+   line-height: 60px;
+}
+
+.header__button--last {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   text-decoration: none;
+   display: inline-block;
+   width: 158px;
+   height: 60px;
+   background-color: red;
+   line-height: 60px;
+   border-radius: 5px;
+}
+
+ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+}
+
+li:first-child {
+   margin-right: 97px;
+}
+
+li:nth-child(2) {
+   margin-right: 104px;
+}
+
+li:nth-child(3) {
+   margin-right: 76px;
+}
+
+.header__center {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.header__center__text {
+   max-width: 741px;
+   height: 300px;
+   color: #FFF;
+   font-family: 'DM Serif Display', serif;
+   font-size: 100px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 100%;
+}
+
+.header__center__space {
+   width: 412px;
+}
+
+.header__lower {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 60px;
+}
+
+.header__lower__button {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   text-decoration: none;
+   display: inline-block;
+   width: 158px;
+   height: 60px;
+   background-color: red;
+   line-height: 60px;
+   border-radius: 5px;
+   background-image: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\arrow.png');
+   background-repeat: no-repeat;
+   background-size: 29.5px 12.35px;
+   background-position: calc(100% - 23px) center;
+   padding-right: 60px;
+}
+
+.header__lower_space {
+   width: 933px;
+}
+
+.header__truck {
+   max-width: 610px;
+   height: 394.55px; 
+   background-image: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\truck.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-top: 54px;
+}

@@ -1,0 +1,42 @@
+.foot {
+   height: 205px;
+   display: flex;
+   flex-direction: row;
+   max-width: 1600px;
+   background: #F16353;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 184px;
+}
+
+.foot__left {
+   color: #F8F9FA;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 30px;
+   margin-left: 152px;
+}
+
+.foot__center {
+   color: #FFF;
+   font-family: 'DM Serif Display', serif;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 100%;
+   background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\logo.png') no-repeat;
+   background-size: 47px 50px;
+   background-position: left;
+   padding: 25px;
+   padding-left: 70px;
+   margin-left: 180px;
+}
+
+.foot__right {
+   max-width: 170px;
+   height: 36px;
+   margin-right: 281px;
+}
