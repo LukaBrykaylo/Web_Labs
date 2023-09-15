@@ -35,8 +35,17 @@
    margin-left: 180px;
 }
 
-.foot__right {
-   max-width: 170px;
-   height: 36px;
-   margin-right: 281px;
+.foot__center a {
+   text-decoration: none;
+   color: #FFF;
+}
+
+.footer__image {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 280px;
+}
+
+.footer__image a{
+   padding-right: 20px;
 }
