@@ -96,20 +96,24 @@
    background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\man1.png') no-repeat;
    background-size: 60px 60px;
    background-position: left;
+   margin-top: 18px;
 }
 
 .card2 .card__lower {
    background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\man2.png') no-repeat;
    background-size: 60px 60px;
    background-position: left;
+   margin-top: -13px;
 }
 
 .card3 .card__lower {
    background: url('C:\\Coding\\Web\\WebLabs\\Lab_1\\images\\man3.png') no-repeat;
    background-size: 60px 60px;
    background-position: left;
+   margin-top: -30px;
+   padding-bottom: -5px;
 }
 
 .card3 .card__upper {
-   margin-bottom: 83px;
+   margin-bottom: 109px;
 }
