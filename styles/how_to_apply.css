@@ -18,6 +18,20 @@
 .apply__text {
    flex-shrink: 1;
    max-width: 50%;
+   opacity: 0;
+   transform: translateX(100px);
+   transition: opacity 0.5s, transform 0.5s;
+}
+
+.apply__image {
+   opacity: 0;
+   transform: translateX(-100px);
+   transition: opacity 0.5s, transform 0.5s;
+}
+
+.show {
+   opacity: 1;
+   transform: translateX(0);
 }
 
 .apply__text__title {
@@ -41,4 +55,28 @@
    font-weight: 300;
    line-height: 40px;
    max-width: 455px;
+}
+
+@media (max-width: 1150px) and (min-width: 520px) {
+   .apply__text__lower {
+      margin-bottom: 100px;
+   }
+}
+
+@media (max-width: 650px) {
+   .apply__text__lower {
+      font-size: 14px;
+   }
+
+   .apply__text__title {
+      margin-top: 30px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+   }
+
+   .apply__text {
+      max-width: 85%;
+      margin-bottom: 70px;
+   }
 }
