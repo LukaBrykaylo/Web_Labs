@@ -4,13 +4,14 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Lab_1</title>
+   <title>Lab_2</title>
    <link rel="stylesheet" href="styles/header.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+   
 </head>
 
 <body>
@@ -19,6 +20,11 @@
          <div class="logo">
             <a href="file:///C:/Users/PC/Desktop/Web_Labs-1/index.html">TRAFICO.</a>
          </div>
+         <button class="header-burger__menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+         </button>
          <nav class="header__navigation">
             <ul>
                <li><a class="header__button" href="#">ABOUT</a></li>
@@ -39,7 +45,7 @@
       <div class="header__truck"></div>
    </header>
    <div class="aboutus">
-      <div class="aboutus__text">
+      <div class="aboutus__text animated__left">
          <div class="aboutus__text__title">
             ABOUT US
          </div>
@@ -52,15 +58,15 @@
             How do you do when you need to obtain a commercial traffic permit for freight transport to your business?
          </div>
       </div>
-      <div class="aboutus__image">
+      <div class="aboutus__image animated__right">
          <img class="aboutus__image--photo" src="images/aboutPh.png" alt="#">
       </div>
    </div>
    <div class="apply">
-      <div class="apply__image">
+      <div class="apply__image animated__left">
          <img class="apply__image--photo" src="images/howToApplyPh.png" alt="#">
       </div>
-      <div class="apply__text">
+      <div class="apply__text animated__right">
          <div class="apply__text__title">
             How to apply
          </div>
@@ -110,6 +116,7 @@
          </div>
       </div>
    </footer>
+   <script src="js/header_script.js"></script>
 </body>
 
 </html>
